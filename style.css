@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: #f0f0f5;
+}
+
+hr {
+    width: 500px;
+    border-color: #b8b8b8;
+}
+
+#board {
+    width: 400px;
+    height: 400px;
+    background-color: #e0e0eb;
+    border: 6px solid #a3a3c2;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tile {
+    width: 90px;
+    height: 90px;
+    border: 5px solid #c8d4e4;
+    font-size: 40px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* colored tiles */
+
+.x2 {
+    background-color: #ffedcc;
+    color: #6d6d6d;
+}
+
+.x4 {
+    background-color: #ffe0b3;
+    color: #5d5d5d;
+}
+
+.x8 {
+    background-color: #ffbf80;
+    color: white;
+}
+
+.x16 {
+    background-color: #ff9966;
+    color: white;
+}
+
+.x32 {
+    background-color: #ff704d;
+    color: white;
+}
+
+.x64 {
+    background-color: #ff4d4d;
+    color: white;
+}
+
+.x128 {
+    background-color: #ffcc66;
+    color: white;
+}
+
+.x256 {
+    background-color: #ffcc33;
+    color: white;
+}
+
+.x512 {
+    background-color: #ffb32f;
+    color: white;
+}
+
+.x1024 {
+    background-color: #ff9900;
+    color: white;
+}
+
+.x2048 {
+    background-color: #ff8000;
+    color: white;
+}
+
+.x4096 {
+    background-color: #ff5e5e;
+    color: white;
+}
+
+.x8192 {
+    background-color: #ff3333;
+    color: white;
+}
